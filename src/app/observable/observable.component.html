@@ -1,0 +1,11 @@
+<h5>Hit this API and check the Code</h5>
+
+<div>
+  <button (click)="getTodoData()">Todo Data</button>
+</div>
+
+<div>
+  @for(name of data; track name; let i = $index){
+  <p>{{ i + 1 }}. {{ name.title }}</p>
+  }
+</div>
