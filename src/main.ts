@@ -7,7 +7,7 @@ import { ObservableComponent } from './app/observable/observable.component';
   selector: 'app-root',
   standalone: true,
   template: `
-    <h1>Namaste from {{ name }}!</h1>
+    <h1>Namaste {{ name }} by Aditya!</h1>
     <h5>Let's Learn Observable</h5>
 
     <app-observable></app-observable>
@@ -16,7 +16,7 @@ import { ObservableComponent } from './app/observable/observable.component';
   imports:[ObservableComponent],
 })
 export class App {
-  name = 'Aditya';
+  name = 'Angular';
 }
 
 bootstrapApplication(App);
